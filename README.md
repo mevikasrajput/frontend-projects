@@ -3,5 +3,7 @@
 
 ## Projects
 <ol>
-<li>Submit Form</li>
+<li>Gym Webpage UI</li>
+<li>Pricing Cards UI</li>
+<li>Submit Form UI</li>
 </ol>

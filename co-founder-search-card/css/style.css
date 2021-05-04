@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.header-section{
+    width: 100%;
+    display: block;
+}
+
+.main{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background: rgb(233, 229, 229);
+}
+
+.header{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.header h1{
+    text-align: center;
+}
+.header p{
+    line-height: 20px;
+    text-align: center;
+}
+
+.team-section{
+    width: 100%;
+    display: block;
+}
+
+.teams {
+    width: 100%;
+    padding-top: 30px;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+  }
+  .card{
+    padding:2rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width: 170px;
+    box-shadow:2px 4px 8px rgba(0,0,0,.2);
+    border-radius:5px;
+    background: whitesmoke;
+    animation:animate 4s linear infinite forwards;
+  }
+  .card:hover{
+    box-shadow:2px 2px 12px 2px rgba(168, 245, 222, 0.3),2px 2px 12px 2px rgba(120, 168, 226, 0.3);
+  
+  }
+  .card-top{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  
+  .card-top img{
+    width:80px;
+    height:80px;
+    box-shadow:1px 1px 4px 2px rgba(255,255,255,.2);
+    border-radius:50%;
+  }
+  .card-top .name{
+    margin-top:10px;
+    color:#1D0E2E;
+    text-transform:capitalize;
+  }
+  .card-top .link {
+    color: #838985;
+    cursor:pointer;
+  }
+  .card-top .link::before{
+    content:"@"
+  }
+  .card-top .link:hover{
+    color:rgb(6, 140, 180);
+  }
+  .btn{
+    border:2px solid #1D0E2E;
+    margin-top: 20px;
+    padding:.6rem;
+    border-radius:30px;
+    color:#fff;
+    background:#1D0E2E;
+    cursor:pointer;
+    text-transform:capitalize;
+    transition:.2s easy-in-out;
+  }
+  .btn:hover{
+    background: #fff;
+    border: 2px solid #1d0e2e;
+    color: #222;
+  }
+  
+  @keyframes animate{
+    0%{
+      border:2px solid rgb(31, 16, 99);
+    }
+    20%{
+      border:2px solid #4783cc;
+    } 
+    40%{
+      border:2px solid #ccaf47;
+    }
+    60%{
+      border:2px solid #ca47cc;
+    }
+    80%{
+      border:2px solid #d4555d;
+    } 
+    100%{
+      border:2px solid #b5a951;
+    }
+  }
+
+  .get-in-touch-btn{
+      display: block;
+      margin: 60px auto;
+      border: 2px solid #1D0E2E;
+      border-radius: 30px;
+      color: whitesmoke;
+      background: #1D0E2E;
+      padding: .8rem 4.5rem .8rem 4.5rem;
+      cursor:pointer;
+      text-transform:capitalize;
+      transition:.2s easy-in-out;
+  }
+
+  .get-in-touch-btn:hover{
+    background: #fff;
+    border: 2px solid #1d0e2e;
+    color: #222;
+  }
